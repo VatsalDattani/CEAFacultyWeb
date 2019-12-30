@@ -1,3 +1,54 @@
 ul {
     display: inline-block;
 }
+
+#container {
+    margin-top: 35px;
+}
+
+.timeline {
+    width: 25%;
+    height: 80vh;
+    float: right;
+    overflow: scroll;
+}
+
+#contentArea {
+    display: inline-block;
+    width: 75%;
+}
+
+@media(max-width: 1000px){
+    .timeline {
+        display: none;
+    }
+}
+
+div.row {
+    height: 350px;
+}
+
+iframe {
+    width: 100%
+}
+
+img {
+    width: 100%;
+}
+
+h1, h4 {
+    color: #009688;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    margin: 15px 0;
+}
+
+p {
+    font-size: 11pt;
+}
