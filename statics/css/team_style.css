@@ -1,0 +1,24 @@
+nav.navbar {
+    padding-left: 6vw;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+div.container {
+    max-width: 100%;
+    padding: 0 6vw;
+    margin-top: 35px;
+}
+
+div.row {
+    max-width: 100%;
+    padding: 0 5vw;
+    margin-left: 0;
+    height: 350px;
+}
+
+img {
+    border: 0.8px solid gray;
+}

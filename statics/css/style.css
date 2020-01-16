@@ -1,48 +1,38 @@
-ul {
-    display: inline-block;
+ul.navbar-nav {
+    margin-left: 6vw;
 }
 
 #container {
     margin-top: 35px;
-}
-
-.timeline {
-    width: 25%;
-    height: 80vh;
-    float: right;
-    overflow: scroll;
+    max-width: 100%;
+    margin: 0 6vw;
 }
 
 #contentArea {
-    display: inline-block;
-    width: 75%;
+    max-width: 100%;
+    margin: 30px;
 }
 
-@media(max-width: 1000px){
-    .timeline {
-        display: none;
-    }
+#section {
+    margin: 30px 0;
 }
 
-div.row {
-    height: 350px;
+.embed {
+    margin: 0px 40px;
 }
 
 iframe {
-    width: 100%
-}
-
-img {
     width: 100%;
 }
 
-h1, h4 {
-    color: #009688;
+img {
+    max-height: 200px;
+    max-width: 100%;
 }
 
 h1 {
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 h4 {
@@ -51,4 +41,8 @@ h4 {
 
 p {
     font-size: 11pt;
+}
+
+li {
+    margin: 0 10px;
 }
