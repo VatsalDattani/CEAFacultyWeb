@@ -46,3 +46,22 @@ p {
 li {
     margin: 0 10px;
 }
+
+@media(max-width: 992px){
+
+    .embed {
+        margin: 0 10px;
+    }
+
+    ul.navbar-nav {
+        margin: 0;
+    }
+
+    #container {
+        margin: 0;
+    }
+
+    #contentArea {
+        margin: 30px 15px 0 15px;
+    }
+}

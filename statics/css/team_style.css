@@ -21,4 +21,5 @@ div.row {
 
 img {
     border: 0.8px solid gray;
+    max-width: 100%;
 }
