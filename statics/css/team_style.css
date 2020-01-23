@@ -1,14 +1,14 @@
-nav.navbar {
-    padding-left: 6vw;
+ul.navbar-nav {
+    margin-left: 6vw;
 }
 
-.nav-item {
+li.nav-item {
     margin: 0 10px;
 }
 
-div.container {
+.container {
     max-width: 100%;
-    padding: 0 6vw;
+    padding: 0 8vw;
     margin-top: 35px;
 }
 
@@ -45,3 +45,14 @@ h4.card-title, h3 {
         margin-top: 10px;
     }
 }
+
+.main .col-md-4 img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* .interest {
+    display: flex;
+    justify-content: center;
+} */

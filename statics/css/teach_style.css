@@ -1,0 +1,25 @@
+ul.navbar-nav {
+    margin-left: 6vw;
+}
+
+li.nav-item {
+    margin: 0 10px;
+}
+
+.container {
+    max-width: 100%;
+    padding: 0 8vw;
+    margin-top: 35px;
+}
+
+h1 {
+    font-size: 25pt;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+}
+
+.container ul li {
+    margin: 15px;
+}
